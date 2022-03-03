@@ -8,16 +8,15 @@ body {
 
 .container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 300px;
-  height: 400px;
+  max-width: 300px;
+
   margin: 200px auto;
   position: relative;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
+  padding: 1rem 1rem;
 }
-.column-first-qr > img {
-  width: 250px;
-  height: 250px;
+.column-first-qr {
 }
 .column-second-text {
   text-align: center;
@@ -25,17 +24,16 @@ body {
 }
 .row-text-header {
   text-align: center;
-  line-height: 0;
+
   color: hsl(218, 44%, 22%);
 }
 .row-text {
 }
 .img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 10px;
+
+  max-width: 100%;
+
   /* text-align: center; */
   /* padding: 10px 75px; */
   /* border-radius: 20%; */
